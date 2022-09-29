@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlink {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.navlink > li {
+  list-style: none;
+  color: white;
+  padding: 0 15px;
+  width: 7em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.navlink > li:hover {
+  font-weight: 700;
+}
+
+.logo {
+  margin: 0 20px;
+  width: 6em;
+  color: white;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
